@@ -56,7 +56,7 @@ public class MainController {
 		}
 	}
 
-	/// Get product by Id
+	/// obtiene priducto  by Id
 	@RequestMapping("products/{id}")
 	public String showProduct(@PathVariable("id") Long id, Model model) {
 
